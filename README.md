@@ -15,12 +15,9 @@ Você também pode adiciona-lo às variáveis de ambiente e acessa-lo de qualque
 [Tutorial de variáveis de ambiente Windows](https://docs.microsoft.com/pt-br/windows-server/administration/windows-commands/setx#:~:text=O%20comando%20setx%20tamb%C3%A9m%20recupera,grava%20em%20arquivos%20de%20texto.&text=O%20comando%20set%20%2C%20que%20%C3%A9,a%20janela%20de%20console%20atual.)
 
 ## Comandos para executar projeto
-run.bat login senha caminho_coffer
-
-Após adicionado ao PATH:
-Coffer login senha caminho_coffer
-ou
-Coffer login senha
+* run.bat login senha caminho_coffer
+* Coffer login senha caminho_coffer
+* Coffer login senha
 
 ## Para DEVs
 Caso queira, a aplicação permite que altere o código e recompile-o. Foi disponibilizado um arquivo em lotes para a compilação, que também pode ser alterado conforme a necessidade
