@@ -1,0 +1,1 @@
+compile.bat && cd bin/Debug && Coffer.exe %1 %2 %3 & echo . && cd .. && cd ..
