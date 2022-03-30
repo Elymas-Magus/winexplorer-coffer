@@ -21,3 +21,4 @@ Você também pode adiciona-lo às variáveis de ambiente e acessa-lo de qualque
 
 ## Para DEVs
 Caso queira, a aplicação permite que altere o código e recompile-o. Foi disponibilizado um arquivo em lotes para a compilação, que também pode ser alterado conforme a necessidade
+Devido ao arquivo do projeto, também pode ser editado e compilado via codeblock
