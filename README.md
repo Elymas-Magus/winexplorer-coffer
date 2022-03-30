@@ -1,4 +1,4 @@
-# winexplorer-hidder
+# winexplorer-coffer
 ## O que é?
 É um programa, desenvolvido para sistemas operacionais (OS) Windows.
 O program serve para ocultar arquivos e pastas do windows explorer (as pastas do windows).
