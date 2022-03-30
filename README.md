@@ -17,5 +17,10 @@ Você também pode adiciona-lo às variáveis de ambiente e acessa-lo de qualque
 ## Comandos para executar projeto
 run.bat login senha caminho_coffer
 
+Após adicionado ao PATH:
+Coffer login senha caminho_coffer
+ou
+Coffer login senha
+
 ## Para DEVs
 Caso queira, a aplicação permite que altere o código e recompile-o. Foi disponibilizado um arquivo em lotes para a compilação, que também pode ser alterado conforme a necessidade
