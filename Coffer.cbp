@@ -34,12 +34,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="Directory.cpp" />
-		<Unit filename="Directory.h" />
 		<Unit filename="include/Coffer.h" />
+		<Unit filename="include/Directory.h" />
 		<Unit filename="include/Login.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Coffer.cpp" />
+		<Unit filename="src/Directory.cpp" />
 		<Unit filename="src/Login.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

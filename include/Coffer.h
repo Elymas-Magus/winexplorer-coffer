@@ -41,10 +41,21 @@ class Coffer
             return this->checkDir(this->path + "/Private");
         }
         bool lock() {
-            int hide = system(this->getRenameCommand("Private", "Locked").c_str());
-            int status = system(this->getLockerCommand().c_str());
+            int hide = NULL, status = NULL;
 
-            if (hide > -1 && status > -1) {
+            hide = system(
+              this->getRenameCommand("Private", "Locked").c_str()
+            );
+
+            if (hide != 0) {
+                return false;
+            }
+
+            status = system(
+                this->getLockerCommand().c_str()
+            );
+
+            if (hide == 0 && status == 0) {
                 printf("Cofre trancado");
                 return true;
             }
@@ -52,10 +63,21 @@ class Coffer
             return false;
         }
         bool unlock() {
-            int status = system(this->getUnlockerCommand().c_str());
-            int hide = system(this->getRenameCommand("Locked", "Private").c_str());
+            int hide = NULL, status = NULL;
 
-            if (hide > -1 && status > -1) {
+            status = system(
+                this->getUnlockerCommand().c_str()
+            );
+
+            if (status != 0) {
+                return false;
+            }
+
+            hide = system(
+              this->getRenameCommand("Locked", "Private").c_str()
+            );
+
+            if (hide == 0 && status == 0) {
                 printf("Cofre destrancado");
                 return true;
             }

@@ -15,7 +15,16 @@ class Login
             this->email = email;
             this->password = password;
         }
-        bool logar() {
+        bool logar()
+            // Regra temporária, implementada no
+            // hardcoded apenas para não ficar vazia
+            if (this->email != "Elymas-Magus") {
+                return false;
+            }
+            if (this->password != "maguscoffer!@#") {
+                return false;
+            }
+
             return true;
         }
 
